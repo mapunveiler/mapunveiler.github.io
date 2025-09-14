@@ -167,20 +167,19 @@
 <!-- Method Section -->
 <section class="section hero">
   <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/map_overview.jpg" alt="Method Overview"/>
+    </div>
+    
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Method Overview</h2>
         <div class="content has-text-justified">
           <p>
-            Our framework takes clip-level multi-view images and outputs clip-level vectorized HD maps. All components in the frame-level MapNet (i.e., Backbone, PV to BEV, Map Decoder) are adopted from MapTRv2 [23]. The frame-level MapNet extracts map queries and BEV features independently at each frame. MapUnveiler generates compact clip tokens that contain clip-level temporal map information and directly interact with dense BEV features. With the updated BEV features, we construct high-quality clip-level vectorized maps. The generated map tokens and clip tokens are then written to memory.
+            Our framework takes clip-level multi-view images and outputs clip-level vectorized HD maps. All components in the frame-level MapNet (i.e., Backbone, PV to BEV, Map Decoder) are adopted from MapTRv2. The frame-level MapNet extracts map queries and BEV features independently at each frame. MapUnveiler generates compact clip tokens that contain clip-level temporal map information and directly interact with dense BEV features. With the updated BEV features, we construct high-quality clip-level vectorized maps. The generated map tokens and clip tokens are then written to memory.
           </p>
         </div>
       </div>
-    </div>
-    
-    <!-- Method image -->
-    <div class="hero-body">
-      <img src="static/images/map_overview.png" alt="Method Overview"/>
     </div>
   </div>
 </section>
